@@ -1,0 +1,44 @@
+﻿# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# ChromaDB persistent store
+chroma_db/
+
+# Model caches (HuggingFace, Whisper, CLIP)
+.cache/
+models/
+*.pt
+*.bin
+
+# Data (optional - we may keep small samples in repo, but exclude large files)
+data/audio/*.mp3
+data/audio/*.wav
+data/video/*.mp4
+data/video/*.avi
+!data/audio/.gitkeep
+!data/video/.gitkeep
+!data/text/.gitkeep
+
+# IDE / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# Env files
+.env
+.env.local
+
+# Logs
+*.log

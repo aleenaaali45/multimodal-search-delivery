@@ -1,0 +1,2 @@
+The syntax of the command is incorrect.
+def add_word_timestamps(segments, *args, **kwargs):      return segments  fix_timing.pycopy fix_timing.py ".venv\Lib\site-packages\whisper\timing.py"

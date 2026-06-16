@@ -1,0 +1,11 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+[ingest] Found 3 .txt file(s) in data\text
+[embeddings] Loading model: sentence-transformers/all-MiniLM-L6-v2
+Loading weights:   0%|          | 0/103 [00:00<?, ?it/s]Loading weights: 100%|##########| 103/103 [00:00<00:00, 6075.71it/s]
+[embeddings] Model loaded. Embedding dim: 384
+[ingest] ai_history.txt: 3 chunk(s) added
+[ingest] climate_change.txt: 3 chunk(s) added
+[ingest] cooking_pasta.txt: 3 chunk(s) added
+[ingest] Done. Total chunks: 9
+
+Final doc count in ChromaDB: 9
