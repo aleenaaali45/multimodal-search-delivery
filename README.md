@@ -119,7 +119,7 @@ flowchart LR
 ### 1. Setup
 
 ```powershell
-git clone https://github.com/ZarmanSattar/multimodal-search.git
+git clone https://github.com/aleenaaali45/multimodal-search-delivery.git
 cd multimodal-search
 py -3.11 -m venv .venv
 .venv\Scripts\Activate.ps1
@@ -271,6 +271,6 @@ MIT
 
 <div align="center">
 
-**Built by [Zarman Sattar](https://github.com/ZarmanSattar) · SPS Internship Capstone**
+**Built by [Aleena Ali](https://github.com/aleenaaali45) · SPS Internship Capstone**
 
 </div>
